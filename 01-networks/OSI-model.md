@@ -1,1 +1,1 @@
-- Модель OSI (Open Systems Intervonnection)
+<font color="red"><b>Модель OSI (Open Systems Interconnection)</b></font>
