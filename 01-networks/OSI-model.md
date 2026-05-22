@@ -1,1 +1,1 @@
-<font color="red"><b>Модель OSI (Open Systems Interconnection)</b></font>
+🔴 **Модель OSI (Open System Interconnection)**
