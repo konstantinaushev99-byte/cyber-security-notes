@@ -42,12 +42,12 @@
 | Wireshark             | Все уровни       | Анализатор пакетов показывает заголовки всех уровней 
 
 # Что сделал иммено я
-# В терминале Linux/Mac 
+- В терминале Linux/Mac 
 curl -v http://google.com
-# Вывод: Увидел TCP | IP | DNS  
-# Connected to google.com (172.217.168.46) port 80 (#0) — Сетевой уровень (L3): IP-адрес  64.233.161.139
-# GET / HTTP/1.1 — Прикладной уровень (L7): HTTP-запрос. 
-# Connection #0 to host google.com left intact — завершение соединения.
+- Вывод: Увидел TCP | IP | DNS  
+- Connected to google.com (172.217.168.46) port 80 (#0) — Сетевой уровень (L3): IP-адрес  64.233.161.139
+- GET / HTTP/1.1 — Прикладной уровень (L7): HTTP-запрос. 
+- Connection #0 to host google.com left intact — завершение соединения.
 
 
 
