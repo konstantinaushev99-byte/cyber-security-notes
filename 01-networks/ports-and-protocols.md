@@ -46,6 +46,24 @@ IP(Internet Protocol) - отвечает за доставку пакетов о
 - DNS → ? (53)
 - RDP → ? (3389)
 
+## Other Useful Protocols
+
+ICMP (Internet Control Message Protocol) — «проверка связи».
+- Команда ping использует ICMP 
+- Сообщает об ошибках («хост недоступен», «TTL истёк»)
+
+GRE (Generic Routing Encapsulation) — создаёт туннель между двумя точками.
+- Используется в VPN
+- Сам по себе не шифруетданные 
+
+IPSec (Internet Protocol Security) — шифрует данные в туннеле (VPN).
+- Обеспечивает конфиденциальность, целостность и аутентификацию 
+- Два режима: Transport Mode (шифрует только данные) и Tunnel Mode (шифрует всё)
+- Два протокола: AH (аутентификация) и ESP (шифрование + аутентификация)
+- Процесс установки: IKE (Internet Key Exchange) через UDP port 500 
+
+Для SOC важно: IPSec — стандарт для безопасных VPN. GRE часто используется с IPSec.
+
 
 
 
