@@ -104,22 +104,3 @@ nslookup google.com
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
