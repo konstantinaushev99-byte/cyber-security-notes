@@ -38,7 +38,7 @@
   - TXT записи
   - TTL
 -  Пример:
-  - dig google.com
+   - dig google.com
 
 ---
 
