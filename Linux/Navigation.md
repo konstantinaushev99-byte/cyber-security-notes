@@ -2,9 +2,11 @@
 1. pwd - выводит полный путь к текущему рабочему каталогу
    - Ввод: pwd
    - Вывод: /home/kosta
+     
 2. ls - утилита для отображения списка файлов и каталогов в текущей директории или указанном каталоге
    - Ввод: ls
    - Вывод: Desktop Documents Downloads Music Pictures Public Templates Videos
+     
 3. ls -la - показывает все файлы и папки в текущей директории (включая скрытые) с подробной информацией
    - Ввод: ls -la
    - Пример вывода:
@@ -18,9 +20,22 @@
      drwxr-xr-x 2 vboxuser vboxuser 4096 Jun  8 10:00 04-Network Security
      -rw-r--r-- 1 vboxuser vboxuser  320 Jun  8 09:30 README.md
 
+4. cd -  утилита для перемещения между директориями (папками).
+   - Ввод: cd Downloads
+   - Вывод: нет вывода — команда выполнилась молча
 
+5. tree - рекурсивно отображает содержимое каталога в виде дерева
+   - Ввод: tree
+   - Вывод:
+   ```bash
+     .
+    ├── Desktop
+    ├── Documents
+    ├── Downloads
+    ├── Music
+    ├── Pictures
+    ├── Public
+    ├── Templates
+    └── Videos
 
-
-
-
- 
+    9 directories, 0 files
