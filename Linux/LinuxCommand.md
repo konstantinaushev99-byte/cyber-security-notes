@@ -9,7 +9,7 @@
    - Ввод: ls -la
    - Пример вывода:
      
-     ``bash 
+     `bash 
      total 48
      drwxr-xr-x 6 vboxuser vboxuser 4096 Jun  8 10:00 .
      drwxr-xr-x 3 vboxuser vboxuser 4096 Jun  1 09:00 ..
