@@ -28,6 +28,7 @@
    - Ввод: tree
    - Вывод:
    ```bash
+    $ tree
      .
     ├── Desktop
     ├── Documents
