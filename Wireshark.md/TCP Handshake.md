@@ -38,48 +38,18 @@ ACK ----------------->
 3. Открываем любой браузер и смотри TCP Handshake в Wireshark
    - Пишем в фильтре: tcp.flags.syn == 1 и увидим что типо токого:
      <img width="1257" height="34" alt="image" src="https://github.com/user-attachments/assets/f2d10767-b446-4afd-bd5e-8550c6df7591" />
-   - Далее 
-     
+   - Далее переходим к ниму и ищем Transmission Control Protocol, там ищем Strem index: 10 (у всех он будет разный):
+     <img width="620" height="367" alt="image" src="https://github.com/user-attachments/assets/7ca0b550-a41f-4513-a896-4886c70592a7" /> 
+   - После этого пишем фильтр tcp.stream == X(номер потока(индекс)):
+     <img width="1254" height="106" alt="image" src="https://github.com/user-attachments/assets/e54fa1c5-77e7-47a4-a59b-5c19b12f0877" />
+   - И после этого увидим полную цепочку SYN -> SYN,ARC -> ARC
+4. Видим также что:
+   - IP клиента - 192.168.3.109
+   - IP сервера - 199.232.173.91
+   - порт клиента - 37560
+   - порт сервера - 443
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   ---
 
 # Итоги:
 - SYN → запрос на установку соединения
