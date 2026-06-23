@@ -8,10 +8,13 @@
 - Шлюз
 - DNS сервер
 
-2. DORA
-Всего 4 пакета:
-- Discover ( Есть DHCP-сервер? )
-- Offer ( 
-- Request
-- Ack
+---
+
+# Практика Wireshark
+1. Фильтр: 
+- dhcp или bootp
+2. Как поймать DHCP
+- сначало это sudo dhclient -r eth0 ( отпустить IP )
+- затем это sudo dhclient eth0 ( запросить новый )
+
 
