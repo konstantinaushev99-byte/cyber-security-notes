@@ -18,3 +18,13 @@ Nmap(SYN)--> Firewall(удалил пакет)--> Сервер
 | SYN, ACK     | Open            |
 | RST, ACK     | Closed          | 
 | Нет ответа   | Filtered        | 
+
+---
+
+# Практика
+1. Открыл 2 виртуальную машину Ubuntu и включил на ней firewall
+2. Далее открыл Kali и запустил Wireshark с фильтром - tcp.port == 22
+3. И в терминале ввел команду - sudo nmap -sS -p 22 192.168.3.116
+4. В результате увидел - <img width="510" height="60" alt="image" src="https://github.com/user-attachments/assets/67eca77d-fb81-46be-85f8-c04faaa001e4" /> , что порт 22 - filtered
+5. Также перешелл в wireshark, и увидел такую картину - <img width="1270" height="38" alt="image" src="https://github.com/user-attachments/assets/1ff2c9c2-4d90-4900-9c9e-9ab46ef29f81" />, пакеты SYN пошли , но без ответа.
+6. Значит скорее всего стоит firewall.
