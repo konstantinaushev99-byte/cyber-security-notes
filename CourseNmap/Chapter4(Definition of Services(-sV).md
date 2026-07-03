@@ -18,10 +18,10 @@
 Banner — это информация о сервисе, которую он сам сообщает клиенту
 
 Например:
-SSH: SSH-2.0-OpenSSH_9.6
-FTP: 220 FTP Server Ready
-SMTP: 220 mail.example.com ESMTP
-HTTP: Server: Apache/2.4.58
+1. SSH: SSH-2.0-OpenSSH_9.6
+2. FTP: 220 FTP Server Ready
+3. SMTP: 220 mail.example.com ESMTP
+4. HTTP: Server: Apache/2.4.58
 
 ---
 
