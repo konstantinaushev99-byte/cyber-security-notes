@@ -14,6 +14,17 @@
 
 ---
 
+# Что такое Banner?
+Banner — это информация о сервисе, которую он сам сообщает клиенту
+
+Например:
+SSH: SSH-2.0-OpenSSH_9.6
+FTP: 220 FTP Server Ready
+SMTP: 220 mail.example.com ESMTP
+HTTP: Server: Apache/2.4.58
+
+---
+
 # Практика №1 - SSH
 1. Запусти Wireshark с фильтром - tcp.port == 22
 2. В терминале веду: sudo nmap -sV -p 22 192.168.3.116
