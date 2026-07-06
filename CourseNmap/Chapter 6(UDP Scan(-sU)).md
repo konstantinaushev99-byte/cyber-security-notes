@@ -32,7 +32,11 @@ sudo nmap -sU <ip> - Сканирует UDP-порты
    68 — DHCP Client
    123 — NTP
    Это классические UDP-порты
-3. И получил такой вывод: <img width="540" height="243" alt="image" src="https://github.com/user-attachments/assets/16f3b7ee-22aa-428d-b908-631b3c5f318f" />
+3. И получил такой вывод что все эти порты open|filtered: <img width="540" height="243" alt="image" src="https://github.com/user-attachments/assets/16f3b7ee-22aa-428d-b908-631b3c5f318f" />
+
+--- 
+
+# Итог
 
 
 
