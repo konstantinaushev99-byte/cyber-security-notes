@@ -21,3 +21,36 @@
 1. nmap --script http-title 192.168.3.116
 2. nmap --script ssh-hostkey 192.168.3.116
 3. nmap --script default 192.168.3.116
+
+---
+
+# NSE 
+У NSE TCP соединение выглядит по другому, не как у tcp handshake, у NSE что-то похожее на это:
+```bash
+TCP
+↓
+SYN
+↓
+SYN, ACK
+↓
+ACK
+↓
+HTTP GET /
+↓
+HTTP/1.1 200 OK
+↓
+<title>Apache2 Ubuntu Default Page</title>
+↓
+FIN
+```
+
+
+
+
+
+
+
+
+
+
+
