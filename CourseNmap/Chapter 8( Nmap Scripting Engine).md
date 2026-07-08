@@ -45,15 +45,9 @@ FIN
 ```
 
 # Практика
-
-
-
-
-
-
-
-
-
-
-
-
+1. Проверка запущенного веб-сервиса на Ubuntu: sudo ss -tulpn | grep :80, обнаружено что запущен nginx
+2. Использование NSE-скрипта http-title: sudo nmap --script http-title 192.168.3.116, команда обнаружил HTTP-сервис и получил название страницы: lemanopro
+3. Определение сервисов и версий с помощью Nmap: nmap -sV 192.168.3.116, были обнаружены 22/tcp open ssh и 80/tcp open http, 443/tcp closed https
+4. В результате сканирования удалось определить: 192.168.3.116, 22/tcp → SSH → OpenSSH, 80/tcp → HTTP → nginx → веб-сайт lemanopro, 443/tcp → HTTPS закрыт
+5. Также после выполнения команды nmap --script ssh-auth-methods 192.168.3.116, получил publickey и password
+6. После того как я узнал что это wordpress, выполнил следующую  команду: nmap --script http-wordpress-enum 192.168.3.116, и получил темы и плагины Akismet
