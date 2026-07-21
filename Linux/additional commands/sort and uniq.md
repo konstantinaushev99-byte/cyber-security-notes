@@ -10,8 +10,8 @@ sort -n scan.txt
 ```
 
 Например:
-Файл (scan.txt)
 ```bash
+Файл (scan.txt)
 22
 443
 53
