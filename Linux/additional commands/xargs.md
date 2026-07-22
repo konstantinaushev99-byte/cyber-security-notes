@@ -28,14 +28,12 @@ cat ports.txt | awk '/open/ {print $1}' | cut -d'/' -f1 | xargs -I{} nmap -sV -p
 То есть для порта 22 выполнится nmap -sV -p22 192.168.1.1, для 443 — nmap -sV -p443 192.168.3.127
 ```
 3. Запустить то 4 процессов одновременно ( параллельно )
-```bash
 <img width="694" height="355" alt="image" src="https://github.com/user-attachments/assets/d9855919-e464-4f63-830d-a317b09a91fa" />
-```
 4. Вывести результат каждого пинга в отдельный файл с именем хоста, например 8.8.8.8.log, 1.1.1.1.log и т.д`
 ```bash
 cat hosts.txt | xargs -I{} sh -c 'ping -c1 {} > {}.log'
 
-Вывод: <img width="382" height="62" alt="image" src="https://github.com/user-attachments/assets/6b567aca-0314-434f-a47a-0331d998b6e1" />
+Вывод: Создаст 4 отдельных файла( 1.1.1.1.log 192.168.1.999.log 8.8.8.8.log google.com.log
 ```
 
 ---
