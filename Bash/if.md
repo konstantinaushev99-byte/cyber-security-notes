@@ -64,3 +64,19 @@ else
     echo "Хост недоступен"
 fi
 ```
+
+```bash
+Пример с использованием ping и xargs
+#!/bin/bash
+
+ip=$1
+
+ping -c1 $ip > /dev/null
+if [ $? -eq 0 ]; then
+    echo "Хост $ip доступен" # добавил $ip чтобы лучше читать вывод
+else
+    echo "Хост $ip недоступен"
+fi
+
+В терминале ведем: cat hosts.txt | xargs -n1 ./if.sh
+```
