@@ -38,5 +38,55 @@ fi
 
 ---
 
-# Пример 1
+# Примеры
+### 1. Оценка по числу открытых портов
 ```bash
+#!/bin/bash
+
+port=$1
+
+if [ $port -eq 0 ]; then
+    echo "Портов не найдено"
+elif [ $port -le 5 ]; then
+    echo "Мало открытых портов"
+else 
+    echo "Много открытых портов, стоит присмотреться"
+fi
+
+В терминале: ./elif.sh 0; Вывод: Портов не найдено
+```
+### Определение сервиса по номеру порта
+```bash
+#!/bin/bash
+
+port=$1
+
+if [ $port -eq 22 ]; then
+   echo "SSH"
+elif [ $port -eq 80 ]; then
+    echo "HTTP"
+elif [ $port -eq 443 ]; then
+    echo "HTTPS"
+else
+   echo "Неизвестный сервис"
+fi
+
+В терминале: ./elif.sh 22; Вывод: SSH
+```
+### Комбинирование ping и кол-во пакетов
+```bash
+#!/bin/bash
+
+ip=$1
+loss=$(ping -c3 $ip | grep -oP '\d+(?=% packet loss)')
+
+if [ $loss -eq 0 ]; then
+    echo " отличное соединение"
+elif [ $loss -gt 0 ] && [ $loss -lt 50 ]; then
+    echo "Нестабильное соединение"
+else 
+    echo "Плохое соединение или хост недоступен"
+fi
+
+В терминале: ./elif.sh 192.168.3.109; Вывод: отличное соединение
+```
