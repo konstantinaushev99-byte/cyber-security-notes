@@ -35,7 +35,7 @@
 
 # Для собеседования 
 - Фишинг — массовые поддельные письма
-- Spear phishing — целевой
+- Spear phishing — целевой фишинг
 - Tailgating — зайти в офис следом
 - Pretexting — легенда для обмана
 - Shoulder surfing — подглядывание
