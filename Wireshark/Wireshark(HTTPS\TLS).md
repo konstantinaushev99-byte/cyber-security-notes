@@ -74,7 +74,7 @@ Application Data
 1. Открыть: google.com
 2. В Wireshark фильтр: tls
 3. Увидел это: <img width="1261" height="92" alt="image" src="https://github.com/user-attachments/assets/0b2770c3-e451-4ec1-89be-ea308dd71890" />
-4. Открыл Client Hello и перешел по данному путю и мог бы найти домен mozilla.net , но в данном примере нету секции Extension: server_name:
+4. Открыл Client Hello и перешел по данному пути и мог бы найти домен mozilla.net , но в данном примере нету секции Extension: server_name:
    <img width="329" height="130" alt="image" src="https://github.com/user-attachments/assets/84a59d4f-b3ba-4e2d-9bbf-e1ef22afd937" />
 5. Также открыл Cipher Suites и нашел поддерживаные шифрования: <img width="898" height="483" alt="image" src="https://github.com/user-attachments/assets/be0624bc-a6bd-42dc-b43b-d62f9686e623" />
 6. Зайдя в Server Hello увидел какой тип шифрования будет использовать сервер: <img width="696" height="118" alt="image" src="https://github.com/user-attachments/assets/8327efbc-02b3-4306-8ebf-d0292eb56aeb" />
