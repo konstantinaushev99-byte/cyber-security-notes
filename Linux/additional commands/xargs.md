@@ -29,6 +29,7 @@ cat ports.txt | awk '/open/ {print $1}' | cut -d'/' -f1 | xargs -I{} nmap -sV -p
 ```
 3. Запустить до 4-ех процессов одновременно ( параллельно )
 <img width="694" height="355" alt="image" src="https://github.com/user-attachments/assets/d9855919-e464-4f63-830d-a317b09a91fa" />
+
 4. Вывести результат каждого пинга в отдельный файл с именем хоста, например 8.8.8.8.log, 1.1.1.1.log и т.д`
 
 ```bash
