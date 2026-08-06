@@ -109,29 +109,4 @@
 
      $ ls -l file.txt
      -rw-r--r-- 1 kosta users 0 Jun 10 10:00 file.txt
-     
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
+     ``` 
