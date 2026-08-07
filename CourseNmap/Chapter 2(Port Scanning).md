@@ -61,23 +61,5 @@ Nmap(SYN) --> <-- Сервер(RST) сервер сам говорит что э
 2. Открою терминал и введу - nmap -sS 192.168.3.114
 3. Вернусь в Wireshark и увижу - <img width="1257" height="41" alt="image" src="https://github.com/user-attachments/assets/671c44d3-cd66-45bc-b743-b162754ae604" />
 4. Чтобы увидеть полную последовательность , я виду в фильтр - tcp.port == 62078, и увижу - <img width="1266" height="57" alt="image" src="https://github.com/user-attachments/assets/45feb5be-efcf-4946-8142-1c181a2f69b5" />
-5. RST отправил мне - 192.168.3.109 - мой ПК
+5. RST отправил мне - 192.168.3.109
 6. И все это я увидел на порту - 62078
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
