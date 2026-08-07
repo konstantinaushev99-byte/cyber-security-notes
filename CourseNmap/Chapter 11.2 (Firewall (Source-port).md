@@ -15,5 +15,6 @@
 
 Получается очень наглядное сравнение
 | Без --source-port | С --source-port 53 |
+|-------------------|--------------------|
 | Source Port = 63576 | Source Port = 53 |
 | Destination Port = 22 | Destination Port = 22 |
