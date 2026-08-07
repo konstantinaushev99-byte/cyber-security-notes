@@ -41,8 +41,8 @@ sudo nmap -sU <ip> - Сканирует UDP-порты
    - UDP не устанавливает соединение (нет handshake)
    - Ответы часто отсутствуют
    - Поэтому Nmap использует состояния:
-   - open — получен UDP-ответ
-   - closed — ICMP “port unreachable”
-   - open|filtered — тишина (непонятно что произошло)
+      - open — получен UDP-ответ
+      - closed — ICMP “port unreachable”
+      - open|filtered — тишина (непонятно что произошло)
 2. Ключевая идея:
    - UDP-сканирование = анализ отсутствия ответа
