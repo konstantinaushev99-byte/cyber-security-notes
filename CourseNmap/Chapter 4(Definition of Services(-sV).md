@@ -26,7 +26,7 @@ Banner — это информация о сервисе, которую он с
 ---
 
 # Практика №1 - SSH
-1. Запусти Wireshark с фильтром - tcp.port == 22
+1. Запустил Wireshark с фильтром - tcp.port == 22
 2. В терминале веду: sudo nmap -sV -p 22 192.168.3.116
 3. В результате команды увидел это:
 <img width="539" height="63" alt="image" src="https://github.com/user-attachments/assets/9a43a69c-5d67-4ddc-87ac-3887ec8a782f" />
