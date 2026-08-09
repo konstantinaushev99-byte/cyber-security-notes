@@ -44,3 +44,5 @@ sudo nmap -sU <ip> - Сканирует UDP-порты
       - open — получен UDP-ответ
       - closed — ICMP “port unreachable”
       - open|filtered — тишина (непонятно что произошло)
+2. Главна мысль UDP-сканирования:
+   - Отсутствие ответа ≠ открыт порт
