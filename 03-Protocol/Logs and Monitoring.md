@@ -1,4 +1,4 @@
-# Источник: Logs and Monit# Network Monitoring – 3.2
+# Источник: Logs and  Network Monitoring – 3.2
 ### Network Monitoring 
 
 ---
