@@ -6,7 +6,6 @@
    | grep -i "warning" log.txt | Без учёта регистра (Warning, WARNING) |
    | grep -n "error" log.txt | Показывает номера строк |
    | grep -c "error" log.txt | Показывает количество совпадений |
-   | grep -E "Failed "|"(без ковычек)  Invalid" auth.log | Ищет Failed или Invalid |
    | grep -E "^192\.168\." access.log | Строки, начинающиеся с 192.168. |
    | grep -E "error$" log.txt | Строки, заканчивающиеся на error |
 
