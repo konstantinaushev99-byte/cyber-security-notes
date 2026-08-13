@@ -38,7 +38,7 @@ ACK ----------------->
    - Второй: [SYN, ACK]
    - Третий: [ACK]
 3. Открываем любой браузер и смотри TCP Handshake в Wireshark
-   - Пишем в фильтре: tcp.flags.syn == 1 и увидим что типо токого:
+   - Пишем в фильтре: tcp.flags.syn == 1
      <img width="1257" height="34" alt="image" src="https://github.com/user-attachments/assets/f2d10767-b446-4afd-bd5e-8550c6df7591" />
    - Далее переходим к ниму и ищем Transmission Control Protocol, там ищем Strem index: 10 (у всех он будет разный):
      <img width="620" height="367" alt="image" src="https://github.com/user-attachments/assets/7ca0b550-a41f-4513-a896-4886c70592a7" /> 
