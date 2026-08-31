@@ -11,6 +11,7 @@ dig TXT tryhackme.com
 
 # Команды dig A tryhackme.com и  dig AAAA tryhackme.com
 <img width="656" height="761" alt="image" src="https://github.com/user-attachments/assets/5865fe44-9ba8-44dd-90f5-2b13ee35095b" />
+
 Структура ответа dig — 4 секции
 1. QUESTION SECTION — что я спросил (A-запись tryhackme.com)
 2. ANSWER SECTION — вот это настоящий ip сайта:
