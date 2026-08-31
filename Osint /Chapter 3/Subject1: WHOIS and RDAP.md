@@ -104,8 +104,8 @@ a70a4ff6d25041a48378997194f9e834.protect@withheldforprivacy.com
 ```
 
 # Rdap
-Полный ответ: см. [Rdap.txt](https://github.com/user-attachments/files/31631557/Rdap.txt) или [
-](https://about.rdap.org/) 
+Полный ответ: см. https://about.rdap.org/
+
 Ключевые находки:
 - Registrant/Technical entities — privacy-proxy (WithheldForPrivacy)
 - Email — уникальный хеш-алиас, бесполезен для reverse WHOIS
