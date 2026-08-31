@@ -10,7 +10,6 @@ dig TXT tryhackme.com
 ```
 
 # Команды dig A tryhackme.com и  dig AAAA tryhackme.com
-```bash
 <img width="656" height="761" alt="image" src="https://github.com/user-attachments/assets/5865fe44-9ba8-44dd-90f5-2b13ee35095b" />
 Структура ответа dig — 4 секции
 1. QUESTION SECTION — что я спросил (A-запись tryhackme.com)
@@ -24,10 +23,10 @@ tryhackme.com. 113 IN A 64.239.109.65
    а сам сайт может стоять на любом другом хостинге напрямую
 3. AUTHORITY SECTION — кто авторитетный сервер для этой зоны (NS-записи Cloudflare), просто подтверждение, откуда пришёл ответ
 4. ADDITIONAL SECTION — это IP-адреса самих NS-серверов (kip.ns.cloudflare.com, uma.ns.cloudflare.com), а не IP сайта tryhackme.com! Это называется glue records — вспомогательная информация, чтобы резолвер не делал ещё один DNS-запрос для поиска IP самих нейм-серверов
-```
+
 
 # Вывод команд dig NS tryhackme.com dig MT tryhackme.com dig TXT tryhackme.com
-```bash
+
 dig NS tryhackme.com - <img width="703" height="709" alt="image" src="https://github.com/user-attachments/assets/0aabce9e-2835-4a9a-96a9-75e1a1109542" />
 NS потвердила то, что мы уже знали - kip.ns.cloudflare.com/uma.ns.cloudflare. Контрольная проверка пройдена.
 
@@ -47,7 +46,7 @@ Verification-токены (не дают доступа, просто подтв
 - zapier-domain-verification — используют Zapier для автоматизации workflow между сервисами
 - anthropic-domain-verification — любопытно: значит домен верифицирован в системах Anthropic (вероятно, для доступа к Claude for Work/Enterprise-аккаунту или API-интеграции на уровне организации)
 - apple-domain-verification — верификация для сервисов Apple (может быть Apple Business Manager, Sign in with Apple, или push-уведомления)
-```
+
 
 # Итог
 Из одной TXT-записи корневого домена мы, по сути, востановили тех-стек компании: Google Workspace(почта), Chargebee(биллинг), HubSpot(маркетинг), Zapier(автоматизация), плюс факт использования Anthropic и Apple сервисов. 
