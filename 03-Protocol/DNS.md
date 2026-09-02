@@ -65,7 +65,7 @@ DNSSEC — подписывает DNS-ответы цифровой подпис
 |:----|:-----------|:-------|
 | A    | IPv4-адрес домена | google.com -> 142.250.185.46 |
 | AAAA | IPv6-адрес домена | google.com → 2a00:1450:401b:800::200e | 
-| CNAME | Alias (одно имя указывает на другое | www.example.com → example.com | 
+| CNAME | Alias (одно имя указывает на другое) | www.example.com → example.com | 
 | MX    | Почтовый сервер для доменов | example.com → mail.example.com | 
 | TXT   | Текстовая информация (SPF, DKIM для проверки писем) | v=spf1 include:_spf.google.com ~all |
 | NS    | Авторитетный DNS-сервер для домена | ns1.google.com |
