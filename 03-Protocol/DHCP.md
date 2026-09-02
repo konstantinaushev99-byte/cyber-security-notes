@@ -87,8 +87,4 @@ ip route
 cat /etc/resolv.conf
 # Вывод: nameserver 192.168.3.1
 # DNS-сервер тоже выдан DHCP (или роутером)
-
-
-
-
-
+```
