@@ -4,7 +4,7 @@
 ### Шаг 1: HTTP-заголовки
 В терминале:
 ```bash
-cutl -I https://github.com
+curl -I https://github.com
 ```
 Разбор вывода: <img width="2527" height="690" alt="image" src="https://github.com/user-attachments/assets/7be9ef5f-ebea-4a9a-9a3e-68d535750e27" />
 - Server: github.com
