@@ -42,3 +42,5 @@ https://insecure-website.com/login/home.jsp?admin=true
 https://insecure-website.com/login/home.jsp?role=1
 ```
 Этот подход небезопасен, поскольку пользователь может изменить значение и получить доступ к функциям
+
+# Broken access control resulting from platform misconfiguration
