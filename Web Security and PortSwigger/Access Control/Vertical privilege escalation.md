@@ -56,6 +56,8 @@ X-Original-URL: /admin/deleteUser
 
 Некоторые фреймворки для разработки приложений поддерживают различные нестандартные HTTP-заголовки, которые можно использовать для переопределения URL-адреса в исходном запросе, например X-Original-URL, и X-Rewrite-URL
 
+# Broken access control resulting from URL-matching discrepancies(Нарушение контроля доступа, вызванное несоответствиями в сопоставлении URL-адресов) - 
+
 
 
 
