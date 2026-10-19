@@ -9,4 +9,6 @@
 5. Заходим в каждый пост и смотрим писателя
 6. После нахождения, нажимаем на автора и в URL-адреса будет его id
 7. Копируем id и возварщаемся в свой аккаунт, меняем свой id , на id carlos
-8. Далее находим API ключ и вводим его в 
+8. Далее находим API ключ и вводим его в "Submit solution"
+
+Ссылка: https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-unpredictable-user-ids
