@@ -61,6 +61,8 @@ MyDatabase     dbo           Users       Password     varchar
 В Oracle вы можете найти ту же информацию следующим образом:
 
 - Вы можете получить список таблиц, выполнив запрос ```all_tables```:
+  
   ```SELECT * FROM all_tables```
 - Вы можете получить список столбцов, выполнив запрос ```all_tab_columns```:
+  
   ```SELECT * FROM all_tab_columns WHERE table_name = 'USERS'```
